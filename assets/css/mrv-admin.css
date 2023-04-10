@@ -1,0 +1,63 @@
+
+
+
+/*---------- TABLES ----------*/
+/*----- basics -----*/
+table.mrv_table_wrap {
+  border-collapse: collapse;
+  border-bottom: 1px solid rgb(0, 0, 0, 0.2);
+
+  max-width: 2000px;
+  width: 100%;
+
+  margin: 10px auto 20px auto;
+}
+
+/*----- table headings -----*/
+.mrv_table_head th {
+  background-color: #aecbeb;
+  border: 1px solid black;
+  padding: 10px;
+  text-align: left;
+  font-size: 18px;
+}
+
+
+/*----- table data (a cell) -----*/
+.mrv_table_body td {
+  padding: 8px;
+  border-bottom: 1px solid black;
+  border: 1px solid rgb(0, 0, 0, 0.2);
+}
+
+
+
+
+
+
+
+.mrv-image-wrap{
+  width: 100px;
+}
+.mrv-image-wrap img{
+  width: 100%;
+}
+
+.mrv-wrap-cont{
+  width: calc(100% - 120px);
+}
+
+.csf-welcome-wrap .csf--col,.csf-welcome-cols .csf--col {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-align: left!important;
+}
+
+.csf-welcome-cols .cpmwp_modal-toggle{
+  margin: 0  0 0 auto;
+}
+
+.csf-welcome-cols .cpmwp_modal-toggle a{
+  text-decoration: none;
+}
